@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entre algoritmos y valores | Panamá: Un País, Cinco Miradas</title>
+<style>
+/* BLOCK 1: Original palette from paginas_V2.html */
+:root{--blue:#07548b;--cyan:#0795d0;--ink:#17365d;--paper:#ffffff;--soft-blue:#eaf2f8;--yellow:#ffd51c;--red:#ef3340;--green:#18a558;--purple:#7a3db8;--navy:#12324A;--turquoise:#087E83;--coral:#C9433A;--gold:#E6B84A;--ivory:#FFF7E8;--sky:#DCEEF0;--white:#FFFFFF}
+*{box-sizing:border-box}
+body{margin:0;padding:18px;background:var(--ivory);font-family:Arial,sans-serif;color:var(--navy)}
+/* BLOCK 2: Letter page and the exact original mola pattern */
+.mola-frame{width:8.5in;min-height:11in;margin:0 auto;padding:0.28in;background:var(--blue) url('images/mola_pattern.jpg') repeat;background-size:160px auto}
+.magazine{background:var(--white);border:3px solid var(--navy);min-height:10.44in;padding:13px 15px;display:flex;flex-direction:column;gap:9px}
+/* BLOCK 3: Headline */
+.page-header{background:linear-gradient(100deg,#ffe75d,var(--yellow));border:2px solid #f4aa00;border-radius:22px;text-align:center;padding:9px 12px}
+.page-header h1{font-size:22px;line-height:1.12;margin:0;color:#102c53}
+.page-header p{font-size:13px;font-weight:700;margin:4px 0 0}
+/* BLOCK 4: Marian values */
+.values{background:#d6f1ff;border:3px solid var(--cyan);border-radius:22px;padding:11px 13px}
+h2,h3,p{margin-top:0}.values h2{font-size:21px;margin-bottom:4px}.values h3{font-size:14px;margin-bottom:7px}.values p,.values li{font-size:12.1px;line-height:1.35}.values p{margin-bottom:6px}.values ul{margin:5px 0 0;padding-left:19px}.values li{margin:0 0 6px}
+/* BLOCK 5: Bottom layout and colored cards */
+.lower{display:grid;grid-template-columns:1.15fr .7fr .85fr;gap:9px;align-items:start}
+.stack{display:flex;flex-direction:column;gap:8px}.section-heading{background:#c7ee5e;border-radius:12px;padding:8px;font-size:16px;font-weight:800;line-height:1.15}
+.pink{background:#ffb5d3;border-radius:12px;padding:9px 10px}.pink p{font-size:11.6px;line-height:1.38;margin:0}.small-heading{background:#ffdf53;border-radius:10px;padding:7px 9px;font-size:14px;font-weight:800;margin:0 0 4px}
+.callout{border-radius:15px;padding:12px 9px;text-align:center;font-size:12px;line-height:1.35}.star{background:#ffe34f;clip-path:polygon(50% 0,63% 25%,92% 21%,79% 47%,100% 71%,68% 75%,50% 100%,32% 75%,0 71%,21% 47%,8% 21%,37% 25%);padding:36px 20px;min-height:225px}.star strong{display:block;font-size:15px}.prompt{background:#ffd05b;border:2px solid #edb72e;font-size:15px;font-weight:700}
+/* BLOCK 6: Replaceable independent photographs */
+.photo{width:100%;object-fit:cover;border-radius:13px;border:2px solid var(--cyan);background:var(--soft-blue);display:block}.procession{height:310px}.photo-hint{font-size:10px;color:var(--blue);text-align:center;margin-top:4px}
+/* BLOCK 7: Team reflection */
+.reflection{margin-top:auto;background:#d9f279;border:3px solid #35882c;border-radius:45px;padding:11px 19px;text-align:center}.reflection h2{font-size:17px;margin:0 0 5px}.reflection p{font-size:12.2px;line-height:1.4;margin:0}
+/* BLOCK 8: Responsive and print */
+@page{size:letter portrait;margin:0}
+@media print{html,body{padding:0;margin:0;background:white;print-color-adjust:exact;-webkit-print-color-adjust:exact}.mola-frame{margin:0;break-inside:avoid;page-break-inside:avoid}}
+@media(max-width:850px){body{padding:0}.mola-frame{width:100%;min-height:unset}.magazine{min-height:unset}.lower{grid-template-columns:1fr 1fr}.lower .photo-column{grid-column:1/-1}.procession{height:220px}.reflection{margin-top:0}}
+@media(max-width:520px){.lower{grid-template-columns:1fr}.lower .photo-column{grid-column:auto}.star{clip-path:none;min-height:unset;padding:16px}}
+</style>
+</head>
+<body>
+<!-- BLOCK 2: Page frame -->
+<div class="mola-frame"><main class="magazine">
+<!-- BLOCK 3: Title -->
+<header class="page-header">
+<h1>Entre algoritmos y valores: Una tecnología con alma</h1>
+<p>Innovar para transformar el mundo sin perder nuestra humanidad.</p>
+</header>
+<!-- BLOCK 4: Values and the Credo -->
+<section class="values">
+<h2>Artículos de reflexión sobre valores</h2>
+<h3>La vivencia de los valores a través del Credo y el ejemplo de María.</h3>
+<p>En nuestra etapa escolar y en equipo, los valores marianos nos enseñan a vivir la fe diariamente:</p>
+<ul>
+<li><strong>Humildad y servicio:</strong> En el salón de clases, este valor se refleja al poner nuestros talentos al servicio de los demás, colaborando de manera ordenada y sin buscar vanagloria.</li>
+<li><strong>Respeto y obediencia activa:</strong> implica escuchar con respeto las opiniones de nuestros compañeros y profesores cultivando un ambiente de armonía y empatía.</li>
+<li><strong>Perseverancia y esperanza:</strong> Este valor nos inspira a no rendirnos ante los desafíos académicos ni ante las dificultades personales.</li>
+<li><strong>Solidaridad y fraternidad:</strong> vivir el Credo nos impulsa a rechazar la discriminación y a practicar la justicia y la ayuda mutua.</li>
+</ul>
+</section>
+<!-- BLOCK 5: Panamanian Marian traditions -->
+<div class="lower">
+<div class="stack">
+<section><div class="section-heading">Tradiciones espirituales y festivales marianos en Panamá</div><div class="pink"><p>El pueblo panameño manifiesta su fe y la vivencia del Credo a través de vivas tradiciones e históricas festividades marianas.</p></div></section>
+<section><h2 class="small-heading">Virgen de Santa María la Antigua</h2><div class="pink"><p><strong>(Patrona de Panamá)</strong></p><p>Vinculada a la primera diócesis en Tierra Firme, en el continente americano. Cada 9 de septiembre, la comunidad reafirma su identidad cultural e histórica, unida a la fe cristiana.</p></div></section>
+<section><h2 class="small-heading" style="background:#b6e96a">Festividad de la Virgen del Carmen</h2><div class="pink"><p>Una de las más populares, especialmente en las comunidades costeras como Taboga, Pocrí, Colón y Chiriquí. Con procesiones marítimas demuestran la fe de los pescadores y sus familiares.</p></div></section>
+</div>
+<!-- BLOCK 6A: Educational callouts -->
+<aside class="stack"><div class="callout star"><strong>¿Sabías que...?</strong>El Rosario es la oración mariana por excelencia, que fortalece la fe, la paz y la unidad en las familias panameñas.</div><div class="callout prompt">¿Te animas a rezar un misterio del rosario esta semana en familia?</div></aside>
+<!-- BLOCK 6B: Independent image -->
+<div class="photo-column"><img class="photo procession" src="images/procesion_mariana.jpg" alt="Procesión mariana en Panamá" onerror="this.style.visibility='hidden';this.parentElement.style.background='#dceef0';this.parentElement.style.minHeight='310px'"><p class="photo-hint">Imagen reemplazable: procesion_mariana.jpg</p></div>
+</div>
+<!-- BLOCK 7: Closing reflection -->
+<section class="reflection"><h2>Reflexión para el equipo</h2><p>Recitar el Credo cobra verdadero sentido cuando nuestros actos reflejan los valores de humildad, amor y fraternidad que María vivió en cada momento.</p></section>
+</main></div>
+</body>
+</html>

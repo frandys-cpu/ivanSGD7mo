@@ -1,0 +1,4 @@
+Abre explorando_panama.html en tu navegador.
+Las imágenes están en la carpeta imagenes y se pueden sustituir individualmente por fotografías reales conservando sus nombres.
+Para imprimir: tamaño Carta, orientación vertical, márgenes ninguno, activar gráficos de fondo.
+Los textos visibles están en español y los comentarios de organización del código en inglés.
