@@ -422,6 +422,12 @@ a.pill:hover {
     max-width: none;
   }
 }
+
+/* Logotipo y enlace del colegio: Descubre más contenido */
+.school-logo-link { display: block; width: fit-content; max-width: 100%; margin: 12px auto 0; text-align: center; }
+.school-logo { display: block; width: 185px; max-width: 100%; height: auto; margin: 0 auto; object-fit: contain; transition: transform .2s ease; }
+.school-logo-link:hover .school-logo, .school-logo-link:focus-visible .school-logo { transform: scale(1.045); }
+.school-logo-link:focus-visible { outline: 3px solid var(--cyan); outline-offset: 4px; border-radius: 8px; }
 </style>
 </head>
 
@@ -523,8 +529,11 @@ a.pill:hover {
       <section class="info-card cover-note">
         <h2>📱 Descubre más contenido</h2>
         <p>
-          <strong>BUSCANOS EN LAS REDES</strong>.
+          <strong>BÚSCANOS EN LAS REDES</strong>
         </p>
+        <a class="school-logo-link" href="https://sangabrieldeladolorosa.com/" target="_blank" rel="noopener noreferrer" aria-label="Visitar el sitio web del Colegio San Gabriel de la Dolorosa">
+          <img src="images/logo-san-gabriel.png" alt="Escudo del Colegio San Gabriel de la Dolorosa" class="school-logo" loading="lazy">
+        </a>
       </section>
 
     </aside>
